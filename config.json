@@ -1,0 +1,4 @@
+{
+    "js" : ["./src/js/pages/index/index.js"],
+    "css" : ["./src/css/pages/index/index.less"]
+}

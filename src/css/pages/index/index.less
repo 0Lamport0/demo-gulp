@@ -1,0 +1,79 @@
+@import "../../common/reset.css";
+@import "../../iconfont/iconfont.css";
+
+.container{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.header{
+    line-height: .88rem;
+    text-align: center;
+    font-weight: 900;
+    font-size: .36rem;
+    color: #ffffff;
+    background: linear-gradient(to bottom,#c92b2a,#ab1b1a,#c92b2a)
+}
+.header-cart{
+    display: block;
+    position: absolute;
+    top: .14rem;
+    border: .02rem solid #EEE;
+    border-radius: .2rem;
+    right: .2rem;
+    background: #b00a0a;
+    width: 1rem;
+    height: .56rem;
+}
+.nav{
+    overflow: hidden;
+    height: .58rem;
+    background: #CCC;
+}
+.nav-scroller{
+    float: left;
+}
+.nav-list{
+    float: left;
+    white-space: nowrap;
+    font-size: 0px;
+}
+.nav-item{
+    display: inline-block;
+    font-size: .24rem;
+    width: .58rem;
+    text-align: center;
+    line-height: .58rem;
+}
+.content{
+    flex: 1;
+    overflow: hidden;
+    background: purple;
+}
+.js-contentList{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.content-item{
+    width: 49%;
+    padding: 5px;
+    margin-top: 5px;
+    box-sizing: border-box;
+    border: 1px solid #CCC;
+}
+.content-item img{
+    width: 100%;
+}
+.content-item dt{
+    min-height: 30px;
+    margin-top: 5px;
+}
+.footer{
+    height: 1rem;
+    background: green;
+}
